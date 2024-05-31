@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	  <groups>
+		  <define name="Credentials">
+			  <include name="Username"></include>
+			  <include name="Password"></include>
+			 </define>
+			 <run>
+				 <include name="Credentials"></include>
+			 </run>
+		  </groups>
+    <classes>
+      <class name="com.runner.Grouping_Credentials"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

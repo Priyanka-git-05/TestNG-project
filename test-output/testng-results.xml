@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-26T19:23:17 IST" name="Default suite" finished-at="2024-05-26T19:25:15 IST" duration-ms="117434">
+    <groups>
+    </groups>
+    <test started-at="2024-05-26T19:23:17 IST" name="Default test" finished-at="2024-05-26T19:25:15 IST" duration-ms="117434">
+      <class name="com.TestNG.Amazon">
+        <test-method is-config="true" signature="extentstartup()[pri:0, instance:com.TestNG.Amazon@771a660]" started-at="2024-05-26T19:23:17 IST" name="extentstartup" finished-at="2024-05-26T19:23:17 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentstartup -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.TestNG.Amazon@771a660]" started-at="2024-05-26T19:23:17 IST" name="setup" finished-at="2024-05-26T19:23:20 IST" duration-ms="2063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="InvalidLogin()[pri:1, instance:com.TestNG.Amazon@771a660]" started-at="2024-05-26T19:23:20 IST" name="InvalidLogin" finished-at="2024-05-26T19:23:31 IST" duration-ms="11416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLogin -->
+        <test-method signature="ValidLoginTest()[pri:2, instance:com.TestNG.Amazon@771a660]" started-at="2024-05-26T19:23:31 IST" name="ValidLoginTest" finished-at="2024-05-26T19:23:39 IST" duration-ms="8164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLoginTest -->
+        <test-method signature="Umbrella()[pri:0, instance:com.TestNG.Amazon@771a660]" started-at="2024-05-26T19:23:40 IST" name="Umbrella" finished-at="2024-05-26T19:24:04 IST" depends-on-methods="com.TestNG.Amazon.ValidLoginTest" duration-ms="24869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Umbrella -->
+        <test-method signature="MobilePhone()[pri:4, instance:com.TestNG.Amazon@771a660]" started-at="2024-05-26T19:24:05 IST" name="MobilePhone" finished-at="2024-05-26T19:24:36 IST" duration-ms="31468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MobilePhone -->
+        <test-method signature="Furniture()[pri:5, instance:com.TestNG.Amazon@771a660]" started-at="2024-05-26T19:24:36 IST" name="Furniture" finished-at="2024-05-26T19:24:54 IST" duration-ms="18028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Furniture -->
+        <test-method signature="CheckOutPayment()[pri:6, instance:com.TestNG.Amazon@771a660]" started-at="2024-05-26T19:24:54 IST" name="CheckOutPayment" finished-at="2024-05-26T19:25:14 IST" duration-ms="19944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckOutPayment -->
+        <test-method is-config="true" signature="end()[pri:0, instance:com.TestNG.Amazon@771a660]" started-at="2024-05-26T19:25:15 IST" name="end" finished-at="2024-05-26T19:25:15 IST" duration-ms="289" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+        <test-method is-config="true" signature="extentEnd()[pri:0, instance:com.TestNG.Amazon@771a660]" started-at="2024-05-26T19:25:15 IST" name="extentEnd" finished-at="2024-05-26T19:25:16 IST" duration-ms="951" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentEnd -->
+      </class> <!-- com.TestNG.Amazon -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
